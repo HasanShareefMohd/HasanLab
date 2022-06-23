@@ -1,0 +1,21 @@
+public class TwoComplexNumbers{
+double bus,car;
+TwoComplexNumbers(double b,double c){
+this.bus= b;
+this.car= c;
+}
+public static TwoComplexNumbers sum(TwoComplexNumbers c1, TwoComplexNumbers c2){
+
+TwoComplexNumbers tcn = new TwoComplexNumbers(0,0);
+tcn.bus = c1.bus + c2.bus;
+tcn.car = c1.car + c2.car;
+return tcn;
+}
+public static void main(String[] args){
+TwoComplexNumbers c1 = new TwoComplexNumbers(2.2, 3);
+TwoComplexNumbers c2 = new TwoComplexNumbers(2.2, 6.1);
+TwoComplexNumbers tcn = sum(c1,c2);
+System.out.println("Sum is: "+ tcn.bus+" + "+ tcn.car);
+}
+}
+
