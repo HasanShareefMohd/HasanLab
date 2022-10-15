@@ -3,7 +3,7 @@ Given two strings of lowercase a and b
 calculate the sum of length of two strings a and b 
 Determine if a is greater than b 
 then print true else vice versa
-capitalise the 1st letter of a and b and print togethe*/
+capitalise the 1st letter of a and b and print together*/
 package Hasan_Lab_Oct_13th;
 
 import java.util.Scanner;
