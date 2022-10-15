@@ -1,5 +1,10 @@
+/*Given a number N for each integer i in the range of 1toN print one value per line from the following:
+i)if i is a multiple of 3 and 5 print GoodMorning
+ii) if i is  a multiple of 3 not 5 print Good
+iii) if i is a multiple of 5 not 3 print Morning
+iv) if i is not a multiple of 3 and 5 then print the value of i*/
 package Hasan_Lab_Oct_13th;
-/*import java.util.Scanner;
+import java.util.Scanner;
 public class GM {
 	int n;
 	Scanner sc=new Scanner(System.in);
@@ -25,32 +30,5 @@ public class GM {
 
 	}
 
-}*/
-
-public class GM {
-	public class X {
-
-	}
-
-	public static class Y {
-
-	}
-
-	public void instantiatedTest() {
-
-	new GM().new X(); //1
-
-	new GM.Y(); //2
-
-	new X(); //3
-
-	new GM.X(); //4
-
-	}
-
-	}
-
-
-
-
+}
 
